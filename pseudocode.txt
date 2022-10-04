@@ -1,0 +1,22 @@
+1) Define required constants
+
+2) Define required variables used to track the state of the game:
+  2.1) Use a chosenWord as string for playerinput from html
+  2.2) Use a losecount variable to keep track of drawing progress of ufo
+  2.3) Use a wincount variable to keep track how many letters were guessed correctly
+
+3) Store elements on the page that will be accessed in code more than once in variables to make code more concise, readable and performant
+    3.1) Cached elment references from html to js such as, canvas, buttons, etc.
+
+4) Upon loading the app should
+  4.1) Initialize the state variables (win$lose count to 0, canvas to empty, hide scrambleSection)
+  4.2) Render those values to the page & create letter buttons
+  4.3) Wait for the user to click and guess on a letter square
+5) Handle a player clicking a letter square
+  5.1) Obtain the index of the square that was clicked
+  5.2）Check if the chosenword contains that letter clicked
+  5.3) lock out the letter button despite correct or incorrect
+  5.4) if it's correct fill in the blanks, if not draws a piece of ufo on canvas
+  5.5) repeat 5.1 to 5.4 until there is a winner or ufo is fully drawn and player loses.
+6) Handle a player clicking the replay button
+  6.1) Reset and Initialize the state variables then render the values to the page

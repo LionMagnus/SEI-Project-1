@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spaceman</title>
+    <script defer src="main.js"></script>
+    <link rel="stylesheet" href="main.css" />
+</head>
+<body>
+    <div class="container">
+        <div id="word-input">
+            <form id="frm1" action="/action_page.php"></form>
+                <input type="text" id="fname" name="fname">
+                <input type="button" onclick="getWord()"></div>
+            </form>
+        <div id="letter-container" class="letter-container hide"></div>
+        <div id="scramble-section"></div>
+        <canvas id="canvas"></canvas>
+        <div id="new-game-container" class="new-game-popup hide">
+          <div id="result-text"></div>
+          <button id="new-game-button">New Game</button>
+        </div>
+      </div>
+</body>
+</html>
