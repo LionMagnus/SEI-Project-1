@@ -25,10 +25,10 @@ This is the first project in Software Engineer Immersive program at General Asse
 
   <summary>:gear: Game Screenshots</summary>
 
-  <h3 align="center">Starting Page</h3> <img
+  <h3 align="center">Starting Page</h3> <p align="center"> <img
     src="https://github.com/LionMagnus/SEI-Project-1/blob/main/imgs/Screenshot_1.png?raw=true"
     width="700"
-  />
+  /> </p>
 
   <h3 align="center">Guessing Page</h3> <img
     src="https://github.com/LionMagnus/SEI-Project-1/blob/main/imgs/Screenshot_2.png?raw=true"
