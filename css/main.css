@@ -1,17 +1,29 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
   }
 body {
-    background-color:dimgray;
+  background-color:rgba(37, 37, 37, 0.534);
+}
+h1 {
+  font-size: 30px;
+  text-align: center;
+  padding: 10px;
+}
+p {
+  padding: 0.4em;
+  text-align: center;
+}
+h2 {
+  text-align: center;
 }
 .container {
   font-size: 18px;
-  background-color: #ffffff;
+  background-color: #b9aef7;
   width: 90vw;
-  max-width: 34em;
+  max-width: 36em;
   position: absolute;
   transform: translate(-50%, -50%);
   top: 50%;
@@ -36,6 +48,8 @@ body {
 #submitButton {
   font-size: 1.0em;
   padding: 0.125em;
+  background-color: yellow;
+  border-color: black;
 }
 .letter-container {
   width: 100%;
@@ -46,9 +60,10 @@ body {
   margin: 1em;
 }
 #letter-container button {
-  height: 2.8em;
-  width: 2.8em;
-  border-radius: 0.4em;
+  height: 3em;
+  width: 3em;
+  border-radius: 0.6em;
+  font-weight: bold;
   background-color: #ffffff;
 }
 #scramble-section {
@@ -62,15 +77,6 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
-.hide {
-  display: none;
-}
-#new-game-button {
-  font-size: 1.25em;
-  padding: 0.5em 1em;
-  color: #000000;
-  border-radius: 0.2em;
-}
 #new-game-container {
   margin: 1em;
   display: flex;
@@ -78,4 +84,20 @@ body {
   justify-content: center;
   flex-direction: column;
   border-radius: 0.6em;
+}
+#new-game-button {
+  font-size: 1.25em;
+  padding: 0.5em 1em;
+  color: #000000;
+  background-color: yellowgreen;
+  border-radius: 0.2em;
+}
+.hide {
+  display: none;
+}
+.winMsg {
+  color: green;
+}
+.loseMsg {
+  color: red;
 }
