@@ -6,6 +6,7 @@ const newGameButton = document.getElementById("new-game-button");
 const submitButton = document.getElementById("submitButton");
 const canvas = document.getElementById("canvas");
 const resultText = document.getElementById("result-text");
+const img = document.getElementById("ufo");
 // variables used to track the state of the game
 let winC=0;
 let loseC=0;
@@ -79,7 +80,7 @@ const Init = () => {
         //lose count
         loseC += 1;
         //for updating images
-        const imgPath = `imgs/spaceman-0${loseC.length}`;
+        img.src = `imgs/spaceman-0${loseC}`;
         //lose condition and message
         if (loseC == 6) {
           resultText.innerHTML = `<h2 class='lose-msg'>You Lose!!</h2><p>The word was <span>${chosenWord}</span></p>`;
@@ -92,7 +93,7 @@ const Init = () => {
     letterContainer.append(button);
   }
   //Reset starting img
-  imgPath = `imgs/spaceman-00`;
+  img.src = `imgs/spaceman-00`;
   //Re-enable Submit input
   submitButton.disabled = false;
 };
