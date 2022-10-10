@@ -16,4 +16,22 @@
 
 ## :pencil: Descriptioin
 
+
+This is the first project in Software Engineer Immersive program at General Assembly. My choice of brower-base game is called Spaceman. Spaceman is a game variant of the popular game hangman, where one player thinks of a word and the other tries to guess it by guessing letters. Each incorrect guess brings you closer to being "hanged." This game helps to sharpen spelling and word-decoding skills. In Spaceman, the concept is the same, but instead of being "hanged", you are a man in space in danger of a UFO snatching you away! Each incorrect guess will draw part of the UFO out and eventually kidnap you if you used up all 6 attempts!
+
 </div>
+
+<details open>
+  <summary>:gear: Functionality</summary>
+
+  |   Description | Screenshot | 
+  |:-------------:| -----------|
+  | <h3>Feed Page</h3> | <img
+    src="https://github.com/profpan396/meet-your-classmates/blob/main/public/Screenshots/FeedPage.png?raw=true"
+    width="700"
+  /> |
+  | <h3 align="center">Profile Page</h3> | <img
+    src="https://github.com/profpan396/meet-your-classmates/raw/main/public/Screenshots/ProfilePage.png"
+    width="700"
+  /> |
+</details>
