@@ -51,3 +51,46 @@ This is the first project in Software Engineer Immersive program at General Asse
   />
 
 </details>
+
+## :computer: Technologies Used
+A screenshot of your app's landing page and any other screenshots of interest.
+
+![JavaScript](https://img.shields.io/badge/-JavaScript-05122A?style=flat&logo=javascript)
+![HTML5](https://img.shields.io/badge/-HTML5-05122A?style=flat&logo=html5)
+![CSS3](https://img.shields.io/badge/-CSS-05122A?style=flat&logo=css3)
+![Git](https://img.shields.io/badge/-Git-05122A?style=flat&logo=git)
+![Github](https://img.shields.io/badge/-GitHub-05122A?style=flat&logo=github)
+![VSCode](https://img.shields.io/badge/-VS_Code-05122A?style=flat&logo=visualstudio)
+
+<h2>:fire: Getting Started</h2>
+
+<h3>:calling: Instructions</h3>
+<details open>
+  <summary>How to play Spaceman</summary>
+  <ol>
+    <li>
+      One player type in what word they want the other player to guess (can be any single word without space). Click Submit after typing in to start the game.
+    </li>
+    <li>
+      Now buttons A-Z will appear, the 2nd player can start guessing by simply clicking on each letter. The 2nd player will have 6 attempts before losing. First player may give hints.
+    </li>
+    <li>Click on the "New Game" button to start a new game or take turns.</li>
+  </ol>
+</details>
+
+<details open>
+  <summary>Deployed Link to Game</summary>
+  <a href="https://lionmagnus.github.io/SEI-Project-1/"
+    >https://lionmagnus.github.io/SEI-Project-1/</a
+  >
+</details>
+
+## :fast_forward: Next Steps
+
+### Upcoming Features
+
+- [ ] Add image space background instead of solid color
+
+- [ ] Add hint funtionality so player1 can say what type of word it is
+
+- [ ] Add functionality for combination of words with space
