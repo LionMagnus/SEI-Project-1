@@ -28,21 +28,26 @@ This is the first project in Software Engineer Immersive program at General Asse
   <h3 align="center">Starting Page</h3> <img
     src="https://github.com/LionMagnus/SEI-Project-1/blob/main/imgs/Screenshot_1.png?raw=true"
     width="700"
-    
+  />
+
   <h3 align="center">Guessing Page</h3> <img
     src="https://github.com/LionMagnus/SEI-Project-1/blob/main/imgs/Screenshot_2.png?raw=true"
     width="700"
+  />
   
   <h3 align="center">Win Page</h3> <img
     src="https://github.com/LionMagnus/SEI-Project-1/blob/main/imgs/Screenshot_3.png?raw=true"
     width="700"
+  />
 
   <h3 align="center">Guessing Page 2</h3> <img
     src="https://github.com/LionMagnus/SEI-Project-1/blob/main/imgs/Screenshot_4.png?raw=true"
     width="700"
+  />
 
   <h3 align="center">Lose Page</h3> <img
     src="https://github.com/LionMagnus/SEI-Project-1/blob/main/imgs/Screenshot_5.png?raw=true"
     width="700"
+  />
 
 </details>
