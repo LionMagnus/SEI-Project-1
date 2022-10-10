@@ -7,3 +7,75 @@
 body {
     background-color:dimgray;
 }
+.container {
+  font-size: 18px;
+  background-color: #ffffff;
+  width: 90vw;
+  max-width: 34em;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+  padding: 3em;
+  border-radius: 0.6em;
+  box-shadow: 0 1.2em 2.4em rgba(111, 85, 0, 0.25);
+}
+#word-input {
+  text-align: center;
+}
+#word-input div {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 1.2em 0 2.4em 0;
+}
+#fname {
+  width: 70%;
+  font-size: 1.0em;
+}
+#submitButton {
+  font-size: 1.0em;
+  padding: 0.125em;
+}
+.letter-container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.6em;
+  margin: 1em;
+}
+#letter-container button {
+  height: 2.8em;
+  width: 2.8em;
+  border-radius: 0.4em;
+  background-color: #ffffff;
+}
+#scramble-section {
+  display: flex;
+  justify-content: center;
+  font-size: 1.8em;
+  margin: 0.6em 0 1.2em 0;
+}
+canvas {
+  display: block;
+  margin: auto;
+  border: 1px solid #000000;
+}
+.hide {
+  display: none;
+}
+#new-game-button {
+  font-size: 1.25em;
+  padding: 0.5em 1em;
+  color: #000000;
+  border-radius: 0.2em;
+}
+#new-game-container {
+  margin: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 0.6em;
+}
