@@ -27,11 +27,11 @@ This is the first project in Software Engineer Immersive program at General Asse
   |   Description | Screenshot | 
   |:-------------:| -----------|
   | <h3>Feed Page</h3> | <img
-    src="https://github.com/profpan396/meet-your-classmates/blob/main/public/Screenshots/FeedPage.png?raw=true"
+    src="https://github.com/LionMagnus/SEI-Project-1/blob/main/imgs/Screenshot_1.png?raw=true"
     width="700"
   /> |
   | <h3 align="center">Profile Page</h3> | <img
-    src="https://github.com/profpan396/meet-your-classmates/raw/main/public/Screenshots/ProfilePage.png"
+    src="https://github.com/LionMagnus/SEI-Project-1/blob/main/imgs/Screenshot_2.png?raw=true"
     width="700"
   /> |
 </details>
