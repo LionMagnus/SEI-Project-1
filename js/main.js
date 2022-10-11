@@ -22,6 +22,7 @@ const blocker = () => {
     button.disabled = true;
   });
   newGameContainer.classList.remove("hide");
+  newGameButton.classList.remove("hide");
   resultText.classList.remove("hide");
   wordInput.classList.remove("hide");
 };
@@ -53,6 +54,7 @@ const Init = () => {
   scrambleSection.innerHTML = "";
   letterContainer.classList.add("hide");
   newGameContainer.classList.add("hide");
+  newGameButton.classList.add("hide");
   resultText.classList.add("hide");
   letterContainer.innerHTML = "";
   //for creating letter buttons
