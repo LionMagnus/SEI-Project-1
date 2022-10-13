@@ -8,10 +8,12 @@ const canvas = document.getElementById("canvas");
 const resultText = document.getElementById("result-text");
 const wordInput = document.getElementById("word-input");
 const img = document.getElementById("ufo");
+const guessM = document.getElementById("guesses");
 // variables used to track the state of the game
-let winC=0;
-let loseC=0;
+let winC;
+let loseC;
 
+let guessC;
 let chosenWord = '';
 
 //Block all the Buttons
@@ -50,12 +52,14 @@ const generateWord = () => {
 const Init = () => {
   winC = 0;
   loseC = 0;
+  guessC = 6;
   //initially erase all content and hide letteres and new game button
   scrambleSection.innerHTML = "";
   letterContainer.classList.add("hide");
   newGameContainer.classList.add("hide");
   newGameButton.classList.add("hide");
   resultText.classList.add("hide");
+  guessM.classList.add("hide");
   letterContainer.innerHTML = "";
   //for creating letter buttons
   for (let i = 65; i < 91; i++) {
@@ -87,6 +91,10 @@ const Init = () => {
       } else {
         //lose count
         loseC += 1;
+        //update amount of guesses left and message
+        guessC -= 1;
+        guessM.innerHTML = `<p>You have <span>${guessC}</span> wrong guess remaining</p>`;
+        guessM.classList.remove("hide");
         //for updating images
         img.src = `imgs/spaceman-0${loseC}.jpg`;
         //lose condition and message

@@ -89,6 +89,8 @@ A screenshot of your app's landing page and any other screenshots of interest.
 
 ### Upcoming Features
 
+- [X] Add functionality displaying guesses left
+
 - [ ] Add image space background instead of solid color
 
 - [ ] Add hint funtionality so player1 can say what type of word it is
